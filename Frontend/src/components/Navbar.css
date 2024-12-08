@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+    margin: 0;
+     
+  }
+  
+  /* Navbar Container */
+  .navbar {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+  
+  }
+  
+  /* Top Navbar */
+  .navbar-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 200px 0px;
+    background-color: #222;
+    padding-left: 100px;
+  }
+  
+  .logo {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 1px;
+  }
+
+
+  
+  .search-bar {
+    display: flex;
+    /* flex-grow: 10; */
+    width: 50%;
+    margin: 0 20px;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    height: 30px;
+  }
+  
+  .search-button {
+    background-color: #444;
+    border: none;
+    padding: 5px 10px;
+    /* color: white; */
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .icons span {
+    /* margin: 0 10px; */
+    cursor: pointer;
+    padding-right: 20px;
+    
+    gap: 5px;
+  }
+
+  .icons span svg {
+    width: 34px;
+    height: 34px;
+    border-color: white;
+  }
+
+  
+  
+  /* Bottom Navbar */
+  
+   .navbar-bottom {
+    background-color: #444;
+    height: 50px;
+
+  } 
+
+    .menwomen span {
+      margin-right: 20px; /* Adjust the margin value as needed */
+      font-size: larger;
+    }
+     
+  
+  
+  .navbar-bottom ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 20px 15px;
+   
+    gap:5px;
+    font-weight: 100px;
+    padding-left: 100px;
+    font-size:medium;
+
+  } 
+  
+   .navbar-bottom li {
+    margin: 0 10px;
+    cursor: pointer;
+  } 
+  
+  .navbar-bottom .sale {
+    color: white;
+    background-color: #e60023;
+    padding: 2px 8px;
+    border-radius: 3px;
+    
+   
+  } 
+
+
+
+
+
+
+
+
+
+

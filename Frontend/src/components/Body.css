@@ -1,0 +1,119 @@
+.homepage1{
+width: 100%;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    gap: 100px;
+    border: 5px black;
+  }
+  
+  .btn button {
+    color: black;
+    font-size: larger;
+    padding: 10px 20px;
+    margin: 0 10px; /* Adjust margin as needed */
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+  
+   
+  }
+
+  
+  .btn button:hover{
+   background-color: black;
+   color: aliceblue;
+    
+
+ }
+
+
+  .card{
+    display: flex;
+    height: 220px;
+    width: 300px;
+    gap: 40px;
+    padding: 50px  10px 10px;
+  }
+
+
+
+  .label{
+  width: 100%;
+  margin-left: 300px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  }
+
+
+  .womenimg{
+    display: flex;
+    height: 450px;
+    width: 200px;
+    gap: 40px;
+    padding-top: 30px;
+  }
+
+.shopbtn button{
+  background-color:white;
+  color:black;
+  margin-left: 630px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  cursor: pointer;
+  width: 300px;
+  height: 100px;
+  font-size: larger;
+  font-weight: 500px;
+}
+
+
+.shopbtn button:hover{
+  background-color:black;
+  color: white;
+}
+
+
+
+.menimg{
+  display: flex;
+  height: 450px;
+  width: 200px;
+  gap: 40px;
+  padding-top: 30px;
+  cursor: pointer;
+  
+}
+
+.menimg img:hover{
+transform: scale(1.2); 
+  transition: transform 0.3s ease-in-out; 
+}
+
+.shop1btn button{
+  background-color:white;
+  color:black;
+  margin-left: 630px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  cursor: pointer;
+  width: 300px;
+  height: 100px;
+  font-size: larger;
+  font-weight: 500px;
+}
+
+
+.shop1btn button:hover{
+  background-color:black;
+  color: white;
+}
+
+.womenimg img:hover{
+  transform: scale(1.2); /* Adjust the scale factor as needed */
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+  }
